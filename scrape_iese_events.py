@@ -8,7 +8,7 @@ from datetime import datetime
 import os
 
 # Airtable setup
-AIRTABLE_BASE_ID = "appoz4aD0Hjolycwd"
+AIRTABLE_BASE_ID = os.getenv("AIRTABLE_BASE_ID")
 AIRTABLE_TABLE_NAME = "tbl0oMenJHGTTrOoi"
 AIRTABLE_API_KEY = os.getenv("AIRTABLE_API_KEY")
 
